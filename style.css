@@ -1,0 +1,20 @@
+body{
+    font-family: Arial;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: darkgreen;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+}
