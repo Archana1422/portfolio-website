@@ -1,20 +1,122 @@
 body{
-    font-family: Arial;
-    background-color: #f4f4f4;
-    padding: 20px;
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#000;
+    color:white;
 }
 
-h1{
-    color: blue;
+/* Header */
+
+header{
+    text-align:center;
+    padding-top:40px;
+}
+
+header h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:28px;
+    color:#ddd;
+}
+/* About Section */
+
+.about{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.about img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+}
+.about h2{
+    font-size:50px;
+    margin-top:25px;
+}
+
+.about p{
+    font-size:28px;
+}
+/* All Sections */
+
+section{
+    text-align:center;
+    padding:50px 20px;
 }
 
 h2{
-    color: darkgreen;
+    font-size:45px;
+    margin-bottom:25px;
 }
 
-button{
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    border: none;
+/* Skills */
+
+ul{
+    list-style:none;
+    padding:0;
 }
+ul li{
+    font-size:28px;
+    margin:15px 0;
+}
+
+/* Projects */
+
+.project{
+    background:#111;
+    width:60%;
+    margin:auto;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(255,255,255,0.2);
+}
+
+.project h3{
+    font-size:35px;
+    margin-bottom:15px;
+}
+
+.project p{
+    font-size:24px;
+}
+
+/* Resume Link */
+
+a{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:cyan;
+    color:black;
+    border-radius:10px;
+    text-decoration:none;
+    font-size:24px;
+    font-weight:bold;
+}
+
+a:hover{
+    background:yellow;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    min-height:100vh;
+}
+   
+    
+   
+   
+
+
+
+    
+    
